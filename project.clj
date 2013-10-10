@@ -1,3 +1,7 @@
-(defproject app "1.0.0-SNAPSHOT"
+(defproject dots_and_boxes "0.1.0-SNAPSHOT"
   :description "FIXME: write description"
-  :dependencies [[org.clojure/clojure "1.3.0"]])
+  :url "http://example.com/FIXME"
+  :license {:name "Eclipse Public License"
+            :url "http://www.eclipse.org/legal/epl-v10.html"}
+  :dependencies [[org.clojure/clojure "1.5.1"]]
+  :main dots-and-boxes.core)
