@@ -75,7 +75,12 @@
 (defn get-score
   ""
   [board player]
-  (->>(board :borders) (into [0]) (take-nth SQ_SIZE) (next) (count)))
+  (->> (board :borders) 
+             (into [0]) 
+             (take-nth SQ_SIZE) 
+             (next) 
+             (filter #(= % player)) 
+             (count)))
 
 (defn can-move? [board move]
   (let [{border :border} (get-index board move)
