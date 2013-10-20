@@ -1,9 +1,12 @@
 (defproject dots_and_boxes "0.1.0-SNAPSHOT"
   :description "First version. 
-               All the basic finctions implemented. 
+               All the basic functions implemented. 
                Everything is a pure functions. 
                Without TDD.
-               Only composite data types. Without RECORDS
+               Only composite data types. Without RECORD
+               Poor swing UI implemented
+               Problem to solve
+                I pass the same arguments to almost all functions (I am avoiding global variables and the use of mutable data)
                NEXT Version => Contracts, testing"
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
